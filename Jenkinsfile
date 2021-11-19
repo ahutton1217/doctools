@@ -100,7 +100,7 @@ timestamps {
 		def moduleArgs = ''
 
 		nodejs(nodeJSInstallationName: "node ${nodeVersion}") {
-			ensureNPM('latest')
+			ensureNPM('latest-7')
 
 		// Can we do some stages like:
 		// Checkout
